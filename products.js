@@ -1,28 +1,15 @@
-const PRODUCTS=[
-["JS001","Velocity One","Performance",8490,"BESTSELLER","Signal Red","photo-1542291026-7eec264c27ff"],
-["JS002","Cloudform Runner","Sneakers",9990,"NEW","Cloud / Grey","photo-1552346154-21d32810aba3"],
-["JS003","Streetline Classic","Sneakers",6990,"EVERYDAY","White / Green","photo-1525966222134-fcfa99b8ae77"],
-["JS004","Terrain Flex","Performance",11490,"ALL TERRAIN","Olive / Black","photo-1460353581641-37baddab0fa2"],
-["JS005","Mono Court","Sneakers",7490,"CLEAN CUT","Off White","photo-1600185365483-26d7a4cc7519"],
-["JS006","Afterhours Low","Sneakers",7990,"JHAMARA PICK","Black / Chalk","photo-1549298916-b41d501d3772"],
-["JS007","Sprint Theory","Performance",10490,"LIGHT FEEL","Volt / White","photo-1552346154-21d32810aba3"],
-["JS008","Sunday Ease","Slides",3490,"EASY DAYS","Sand","photo-1603487742131-4160ec999306"],
-["JS009","Retro Motion","Sneakers",8990,"RETRO","Cream / Rust","photo-1495555961986-6d4c1ecb7be3"],
-["JS010","Daily Form","Sneakers",6290,"DAILY ESSENTIAL","Stone","photo-1460353581641-37baddab0fa2"],
-["JS011","Pulse Knit","Performance",9490,"FLEX KNIT","Black","photo-1542291026-7eec264c27ff"],
-["JS012","Studio 02","Sneakers",8290,"NEW","Grey / White","photo-1552346154-21d32810aba3"],
-["JS013","Boardwalk","Slides",2990,"OFF DUTY","Charcoal","photo-1603487742131-4160ec999306"],
-["JS014","Night Shift","Sneakers",7790,"DARK MODE","Black / Black","photo-1549298916-b41d501d3772"],
-["JS015","Airframe Lite","Performance",12490,"LIGHTWEIGHT","Ice Blue","photo-1552346154-21d32810aba3"],
-["JS016","Canvas Club","Sneakers",4990,"EASY CLASSIC","Natural","photo-1525966222134-fcfa99b8ae77"],
-["JS017","Orbit High","Sneakers",10990,"HIGH TOP","White / Black","photo-1600185365483-26d7a4cc7519"],
-["JS018","Trackline Pro","Performance",13990,"PRO SERIES","Red / Black","photo-1542291026-7eec264c27ff"],
-["JS019","Mellow Slide","Slides",2790,"SOFT STEP","Cream","photo-1603487742131-4160ec999306"],
-["JS020","City Hiker","Performance",11990,"CITY READY","Earth / Olive","photo-1460353581641-37baddab0fa2"],
-["JS021","Frame Runner","Sneakers",9290,"SIGNATURE","White / Red","photo-1552346154-21d32810aba3"],
-["JS022","Core Trainer","Performance",8990,"TRAINING","Grey / Lime","photo-1542291026-7eec264c27ff"],
-["JS023","Weekend Low","Sneakers",6790,"WEEKEND","Tan / White","photo-1495555961986-6d4c1ecb7be3"],
-["JS024","Motion Lab 01","Sneakers",12990,"LIMITED LOOK","Silver / White","photo-1600185365483-26d7a4cc7519"],
-["JS025","Homebound Slide","Slides",2490,"EASY DAYS","Olive","photo-1603487742131-4160ec999306"]
-].map(([id,name,category,price,tag,color,image])=>({id,name,category,price,tag,color,image:`https://images.unsplash.com/${image}?auto=format&fit=crop&w=800&q=85`}));
-const money=n=>"Rs. "+new Intl.NumberFormat("en-PK",{maximumFractionDigits:0}).format(n);
+// Replace these sample products with your actual inventory, sizes and prices.
+window.JHAMARA_PRODUCTS = [
+{id:1,name:"Gulabi Phulkari Khussa",category:"Women",type:"Embroidered Khussa",price:3490,oldPrice:3990,color:"#b94e43",bg:"#ead7cb",tag:"BESTSELLER"},
+{id:2,name:"Peshawar Heritage Chappal",category:"Men",type:"Leather Peshawari",price:4990,oldPrice:0,color:"#86512f",bg:"#d9ddcd",tag:"CLASSIC"},
+{id:3,name:"Zardozi Festive Khussa",category:"Women",type:"Festive Khussa",price:4290,oldPrice:0,color:"#b18a39",bg:"#e7d9bd",tag:"FESTIVE"},
+{id:4,name:"Chitrali Cross Strap",category:"Men",type:"Traditional Chappal",price:4490,oldPrice:4990,color:"#65432e",bg:"#e2d8c8",tag:"POPULAR"},
+{id:5,name:"Sindhi Mirrorwork Mojari",category:"Women",type:"Mirrorwork Mojari",price:3790,oldPrice:0,color:"#b65c3f",bg:"#e8d4c6",tag:"HANDWORK"},
+{id:6,name:"Everyday Kolhapuri",category:"Unisex",type:"Leather Sandal",price:2590,oldPrice:0,color:"#a46d42",bg:"#e7dfc9",tag:"EVERYDAY"},
+{id:7,name:"Ivory Shaadi Khussa",category:"Women",type:"Wedding Khussa",price:5290,oldPrice:5990,color:"#c2a06a",bg:"#e9e0d0",tag:"WEDDING"},
+{id:8,name:"Peshawari Sandal — Dark Tan",category:"Men",type:"Leather Sandal",price:3990,oldPrice:0,color:"#9a5e37",bg:"#d7ddcf",tag:"EVERYDAY"},
+{id:9,name:"Multani Blue Khussa",category:"Women",type:"Colourful Khussa",price:3590,oldPrice:0,color:"#315e72",bg:"#dce4df",tag:"COLOUR POP"},
+{id:10,name:"Classic Kaptaan Chappal",category:"Men",type:"Kaptaan Chappal",price:5490,oldPrice:0,color:"#422d23",bg:"#e1d6c5",tag:"SIGNATURE"},
+{id:11,name:"Rust Ajrak-Inspired Mojari",category:"Unisex",type:"Printed Mojari",price:3290,oldPrice:0,color:"#a44732",bg:"#ead9c7",tag:"CULTURE EDIT"},
+{id:12,name:"Mehndi Night Khussa",category:"Women",type:"Embellished Khussa",price:3890,oldPrice:0,color:"#28604a",bg:"#dce2d2",tag:"FESTIVE"}
+];

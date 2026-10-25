@@ -1,23 +1,25 @@
-# JHAMARA SHOES — premium storefront demo
+# JHAMARA — Pakistani Footwear Demo
 
-## Run locally
-1. Extract the ZIP.
-2. Open `index.html` in a modern browser, or serve this folder using any static web server.
-3. Internet is needed for Google Fonts and Unsplash product images.
+A responsive, culture-inspired storefront concept for Pakistani traditional footwear.
 
-## Pages
-- `index.html` — homepage, categories, product collection, wishlist, search and cart drawer
-- `checkout.html` — checkout preview (not a real order)
-- `about.html` — brand story template
-- `contact.html` — contact form demo
-- `shipping-returns.html` — policy starter template
-- `privacy.html` — privacy notice starter template
-- `products.js` — 25 editable sample products
-- `app.js` — search, filters, sorting, wishlist and cart logic
-- `checkout.js` — checkout preview
-- `styles.css` — responsive styling and 3D-inspired visual effects
+## Included
+- Responsive homepage and mobile navigation
+- Women's khussas, embroidered mojari and festive styles
+- Men's Peshawari, Chitrali and Kaptaan-style chappals
+- Unisex kolhapuri sandals and everyday pairs
+- Category filters, search, price sorting, wishlist interaction
+- Shopping bag with quantity controls, remove and subtotal
+- Newsletter demo, story/craft sections and SEO basics
+- Reduced-motion support and keyboard Escape to close the bag
 
-## Important production limitations
-This is a front-end demonstration, not a live commerce system. It has no server, database, admin panel, inventory control, authentication, shipping integration, order fulfilment or payment processing. Contact and newsletter forms do not transmit data. The product names, prices, images, offers, email address, policies and availability are sample placeholders. Images are remote and illustrative; they may not represent the exact listed shoe.
+## Run
+Open `index.html` in a browser. No build tools are required.
 
-Before production: use licensed product photography; confirm product details and prices; replace all placeholder contact details and legal policies; connect secure backend/API, database, inventory, transactional email, shipping and a reputable payment provider; configure domain/HTTPS, analytics/cookie consent as appropriate, accessibility, security, backups and mobile/browser QA. Do not collect real customer information on this demo.
+## Customize
+- Edit `products.js` to replace sample products, categories, prices and colours.
+- Replace the CSS shoe illustrations with genuine product photography before publishing.
+- Update contact details, shipping/returns, privacy terms, size guide and delivery policies.
+- Change currency/prices as needed.
+
+## Important
+This is a front-end demo, not a production ecommerce system. It does not process real orders, payments, inventory, customer accounts or shipping. The checkout only displays a notice. Connect a secure backend and trusted payment provider before taking orders. Google Fonts require an internet connection. Product prices and visuals are illustrative.
