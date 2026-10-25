@@ -1,0 +1,28 @@
+const PRODUCTS=[
+["JS001","Velocity One","Performance",8490,"BESTSELLER","Signal Red","photo-1542291026-7eec264c27ff"],
+["JS002","Cloudform Runner","Sneakers",9990,"NEW","Cloud / Grey","photo-1552346154-21d32810aba3"],
+["JS003","Streetline Classic","Sneakers",6990,"EVERYDAY","White / Green","photo-1525966222134-fcfa99b8ae77"],
+["JS004","Terrain Flex","Performance",11490,"ALL TERRAIN","Olive / Black","photo-1460353581641-37baddab0fa2"],
+["JS005","Mono Court","Sneakers",7490,"CLEAN CUT","Off White","photo-1600185365483-26d7a4cc7519"],
+["JS006","Afterhours Low","Sneakers",7990,"JHAMARA PICK","Black / Chalk","photo-1549298916-b41d501d3772"],
+["JS007","Sprint Theory","Performance",10490,"LIGHT FEEL","Volt / White","photo-1552346154-21d32810aba3"],
+["JS008","Sunday Ease","Slides",3490,"EASY DAYS","Sand","photo-1603487742131-4160ec999306"],
+["JS009","Retro Motion","Sneakers",8990,"RETRO","Cream / Rust","photo-1495555961986-6d4c1ecb7be3"],
+["JS010","Daily Form","Sneakers",6290,"DAILY ESSENTIAL","Stone","photo-1460353581641-37baddab0fa2"],
+["JS011","Pulse Knit","Performance",9490,"FLEX KNIT","Black","photo-1542291026-7eec264c27ff"],
+["JS012","Studio 02","Sneakers",8290,"NEW","Grey / White","photo-1552346154-21d32810aba3"],
+["JS013","Boardwalk","Slides",2990,"OFF DUTY","Charcoal","photo-1603487742131-4160ec999306"],
+["JS014","Night Shift","Sneakers",7790,"DARK MODE","Black / Black","photo-1549298916-b41d501d3772"],
+["JS015","Airframe Lite","Performance",12490,"LIGHTWEIGHT","Ice Blue","photo-1552346154-21d32810aba3"],
+["JS016","Canvas Club","Sneakers",4990,"EASY CLASSIC","Natural","photo-1525966222134-fcfa99b8ae77"],
+["JS017","Orbit High","Sneakers",10990,"HIGH TOP","White / Black","photo-1600185365483-26d7a4cc7519"],
+["JS018","Trackline Pro","Performance",13990,"PRO SERIES","Red / Black","photo-1542291026-7eec264c27ff"],
+["JS019","Mellow Slide","Slides",2790,"SOFT STEP","Cream","photo-1603487742131-4160ec999306"],
+["JS020","City Hiker","Performance",11990,"CITY READY","Earth / Olive","photo-1460353581641-37baddab0fa2"],
+["JS021","Frame Runner","Sneakers",9290,"SIGNATURE","White / Red","photo-1552346154-21d32810aba3"],
+["JS022","Core Trainer","Performance",8990,"TRAINING","Grey / Lime","photo-1542291026-7eec264c27ff"],
+["JS023","Weekend Low","Sneakers",6790,"WEEKEND","Tan / White","photo-1495555961986-6d4c1ecb7be3"],
+["JS024","Motion Lab 01","Sneakers",12990,"LIMITED LOOK","Silver / White","photo-1600185365483-26d7a4cc7519"],
+["JS025","Homebound Slide","Slides",2490,"EASY DAYS","Olive","photo-1603487742131-4160ec999306"]
+].map(([id,name,category,price,tag,color,image])=>({id,name,category,price,tag,color,image:`https://images.unsplash.com/${image}?auto=format&fit=crop&w=800&q=85`}));
+const money=n=>"Rs. "+new Intl.NumberFormat("en-PK",{maximumFractionDigits:0}).format(n);
