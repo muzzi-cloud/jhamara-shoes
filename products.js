@@ -1,15 +1,19 @@
-// Replace these sample products with your actual inventory, sizes and prices.
-window.JHAMARA_PRODUCTS = [
-{id:1,name:"Gulabi Phulkari Khussa",category:"Women",type:"Embroidered Khussa",price:3490,oldPrice:3990,color:"#b94e43",bg:"#ead7cb",tag:"BESTSELLER"},
-{id:2,name:"Peshawar Heritage Chappal",category:"Men",type:"Leather Peshawari",price:4990,oldPrice:0,color:"#86512f",bg:"#d9ddcd",tag:"CLASSIC"},
-{id:3,name:"Zardozi Festive Khussa",category:"Women",type:"Festive Khussa",price:4290,oldPrice:0,color:"#b18a39",bg:"#e7d9bd",tag:"FESTIVE"},
-{id:4,name:"Chitrali Cross Strap",category:"Men",type:"Traditional Chappal",price:4490,oldPrice:4990,color:"#65432e",bg:"#e2d8c8",tag:"POPULAR"},
-{id:5,name:"Sindhi Mirrorwork Mojari",category:"Women",type:"Mirrorwork Mojari",price:3790,oldPrice:0,color:"#b65c3f",bg:"#e8d4c6",tag:"HANDWORK"},
-{id:6,name:"Everyday Kolhapuri",category:"Unisex",type:"Leather Sandal",price:2590,oldPrice:0,color:"#a46d42",bg:"#e7dfc9",tag:"EVERYDAY"},
-{id:7,name:"Ivory Shaadi Khussa",category:"Women",type:"Wedding Khussa",price:5290,oldPrice:5990,color:"#c2a06a",bg:"#e9e0d0",tag:"WEDDING"},
-{id:8,name:"Peshawari Sandal — Dark Tan",category:"Men",type:"Leather Sandal",price:3990,oldPrice:0,color:"#9a5e37",bg:"#d7ddcf",tag:"EVERYDAY"},
-{id:9,name:"Multani Blue Khussa",category:"Women",type:"Colourful Khussa",price:3590,oldPrice:0,color:"#315e72",bg:"#dce4df",tag:"COLOUR POP"},
-{id:10,name:"Classic Kaptaan Chappal",category:"Men",type:"Kaptaan Chappal",price:5490,oldPrice:0,color:"#422d23",bg:"#e1d6c5",tag:"SIGNATURE"},
-{id:11,name:"Rust Ajrak-Inspired Mojari",category:"Unisex",type:"Printed Mojari",price:3290,oldPrice:0,color:"#a44732",bg:"#ead9c7",tag:"CULTURE EDIT"},
-{id:12,name:"Mehndi Night Khussa",category:"Women",type:"Embellished Khussa",price:3890,oldPrice:0,color:"#28604a",bg:"#dce2d2",tag:"FESTIVE"}
+// Demo catalogue. Replace product image URLs, descriptions, prices and inventory with your own before launch.
+window.JHAMARA_PRODUCTS=[
+{id:1,name:"Gulabi Phulkari Khussa",category:"Women",type:"Embroidered Khussa",price:3490,oldPrice:3990,tag:"BESTSELLER",image:"https://images.unsplash.com/photo-1562273138-f46be4ebdf33?auto=format&fit=crop&w=800&q=85",bg:"#ead7cb"},
+{id:2,name:"Peshawar Heritage Chappal",category:"Men",type:"Leather Peshawari",price:4990,oldPrice:0,tag:"CLASSIC",image:"https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=800&q=85",bg:"#d9ddcd"},
+{id:3,name:"Zardozi Festive Khussa",category:"Women",type:"Festive Khussa",price:4290,oldPrice:0,tag:"FESTIVE",image:"https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=85",bg:"#e7d9bd"},
+{id:4,name:"Chitrali Cross-Strap Chappal",category:"Men",type:"Traditional Chappal",price:4490,oldPrice:4990,tag:"POPULAR",image:"https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=800&q=85",bg:"#e2d8c8"},
+{id:5,name:"Sindhi Mirrorwork Mojari",category:"Women",type:"Mirrorwork Mojari",price:3790,oldPrice:0,tag:"HANDWORK",image:"https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=85",bg:"#e8d4c6"},
+{id:6,name:"Everyday Kolhapuri Sandal",category:"Unisex",type:"Leather Sandal",price:2590,oldPrice:0,tag:"EVERYDAY",image:"https://images.unsplash.com/photo-1621996659490-3275b4d0d951?auto=format&fit=crop&w=800&q=85",bg:"#e7dfc9"},
+{id:7,name:"Ivory Shaadi Khussa",category:"Women",type:"Wedding Khussa",price:5290,oldPrice:5990,tag:"WEDDING",image:"https://images.unsplash.com/photo-1535043934128-cf0b28d5a1f6?auto=format&fit=crop&w=800&q=85",bg:"#e9e0d0"},
+{id:8,name:"Peshawari Sandal — Dark Tan",category:"Men",type:"Leather Sandal",price:3990,oldPrice:0,tag:"EVERYDAY",image:"https://images.unsplash.com/photo-1560343090-f0409e92791a?auto=format&fit=crop&w=800&q=85",bg:"#d7ddcf"},
+{id:9,name:"Multani Blue Khussa",category:"Women",type:"Colourful Khussa",price:3590,oldPrice:0,tag:"COLOUR POP",image:"https://images.unsplash.com/photo-1562273138-f46be4ebdf33?auto=format&fit=crop&w=800&q=85",bg:"#dce4df"},
+{id:10,name:"Modern Street Sneaker",category:"Modern",type:"Everyday Sneaker",price:5990,oldPrice:6490,tag:"NEW DROP",image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=85",bg:"#e8d8c6"},
+{id:11,name:"White Minimal Sneaker",category:"Modern",type:"Everyday Sneaker",price:6490,oldPrice:0,tag:"ESSENTIAL",image:"https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=85",bg:"#e2e4df"},
+{id:12,name:"Kaptaan Classic Chappal",category:"Men",type:"Kaptaan Chappal",price:5490,oldPrice:0,tag:"SIGNATURE",image:"https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=800&q=85",bg:"#e1d6c5"},
+{id:13,name:"Rust Ajrak-Inspired Mojari",category:"Unisex",type:"Printed Mojari",price:3290,oldPrice:0,tag:"CULTURE EDIT",image:"https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=85",bg:"#ead9c7"},
+{id:14,name:"Weekend Runner Sneaker",category:"Modern",type:"Sporty Sneaker",price:5790,oldPrice:0,tag:"WEEKEND",image:"https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=85",bg:"#dce3df"},
+{id:15,name:"Mehndi Night Khussa",category:"Women",type:"Embellished Khussa",price:3890,oldPrice:0,tag:"FESTIVE",image:"https://images.unsplash.com/photo-1562273138-f46be4ebdf33?auto=format&fit=crop&w=800&q=85",bg:"#dce2d2"},
+{id:16,name:"Tan Everyday Leather Sandal",category:"Unisex",type:"Leather Sandal",price:2990,oldPrice:0,tag:"DAILY WEAR",image:"https://images.unsplash.com/photo-1621996659490-3275b4d0d951?auto=format&fit=crop&w=800&q=85",bg:"#e9dfc7"}
 ];
